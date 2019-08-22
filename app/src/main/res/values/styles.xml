@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="storeListName">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/fab_margin</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="lightHeader">
+        <item name="android:paddingStart">@dimen/fab_margin</item>
+    </style>
+
+    <style name="KiwiFontStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="bigbold" parent="KiwiFontStyle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <style name="smallbold" parent="bigbold">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="addressText" parent="KiwiFontStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+</resources>
