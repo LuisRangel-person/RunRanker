@@ -39,6 +39,12 @@
         <item name="android:textSize">30sp</item>
     </style>
 
+    <style name="resultsnumber" parent="bigbold">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+
     <style name="addressText" parent="KiwiFontStyle">
         <item name="android:textSize">20sp</item>
         <item name="android:paddingStart">16dp</item>
