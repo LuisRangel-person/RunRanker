@@ -1,0 +1,14 @@
+Howdy, I'm Luis Rangel, creator of RunRanker here to tell you a little about what went into this app.
+
+I used a library called Retrofit 2 to handle the network connectivity and the handling of the response.
+
+The JSON response that Retrofit obtained was decoded by GSON into Runner objects. 
+
+All the image assets in RunRanker were made by myself using a vector graphics tool called Sketch.
+I treated this app like it ws going to client, so I made it a bit better than a simple chart. I like colors.
+
+If you have any questions or concerns, please contact me at luisrangel.person@gmail.com.
+
+Thank you for checking out my project, and I hope you have a nice day!
+
+~Luis (ง^ᗜ^)ง
