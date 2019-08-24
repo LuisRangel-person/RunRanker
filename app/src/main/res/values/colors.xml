@@ -7,6 +7,10 @@
     <color name="white">#FFFFFF</color>
 
     <color name="category_teen">#17B6E8</color>
-    <color name="category_young">#4917E8</color>
-    <color name="category_adult">#3464EB</color>
+    <color name="category_young">#3464EB</color>
+    <color name="category_adult">#4917E8</color>
+
+
+    <color name="splash_background">#15013D</color>
+    <color name="about_body">#FFC200</color>\
 </resources>

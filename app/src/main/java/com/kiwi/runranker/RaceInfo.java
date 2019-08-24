@@ -3,7 +3,7 @@ package com.kiwi.runranker;
 import java.util.Collections;
 import java.util.List;
 
-public class RaceInfo {
+class RaceInfo {
     private String Name;//The race's name
     private List<Runner> Runners;//The people who participated in the race
 
@@ -17,13 +17,6 @@ public class RaceInfo {
             return Name;
         }
         return "";//In case the name is null
-    }
-
-    String getNumberofRacers(){
-        if(Runners != null){
-            return Runners.size() == 1 ? Runners.size() + " Racer" : Runners.size() + " Racers";
-        }
-        return "0";
     }
 
     List<Runner> getRunners(){

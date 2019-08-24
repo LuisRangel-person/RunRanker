@@ -3,7 +3,7 @@ package com.kiwi.runranker;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetrofitClientInstance {
+class RetrofitClientInstance {
     private static Retrofit retrofit;
     private static final String base_url = "http://849fairmount.com/";
 

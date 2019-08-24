@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">RunRanker</string>
+    <string name="action_settings">About</string>
+
+
+    <string name="header_name">Name</string>
+    <string name="header_rank">Rank</string>
+    <string name="header_time">Time</string>
+    <string name="image_desc">Image Display</string>
+    <string name="image_medal">A medal</string>
+
+    <string name="dialog_title">Title</string>
+    <string name="inner_thoughts">I am error.</string>
+    <string name="yes">OK</string>
+    <string name="no">No</string>
+    <string name="retry">RETRY</string>
+
+    <string name="ad_about">This application was made to show a list of racers obtained though an online JSON response. I had a little fun with it. Thank you for checking out RunRanker!</string>
+    <string name="ad_version">Version</string>
+    <string name="ad_logo">Logo</string>
+
+    <string name="placeholder_age">Age: 24</string>
+    <string name="placeholder_number">1</string>
 </resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:background="@color/splash_background"
+    >
+
+    <ImageView
+        android:id="@+id/iv_ad_logo"
+        android:layout_width="196.5dp"
+        android:layout_height="168.5dp"
+        android:contentDescription="@string/ad_logo"
+        android:background="@drawable/ic_icon_crafted"
+        android:layout_centerVertical="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/iv_ad_logo">
+        <TextView
+            android:id="@+id/tv_ad_version"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/fab_margin"
+            style="@style/aboutBody"
+            android:text="@string/ad_version"
+            />
+        <TextView
+            android:id="@+id/tv_ad_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/fab_margin"
+            style="@style/aboutBody"
+            android:textAlignment="center"
+            android:text="@string/ad_about"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
